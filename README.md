@@ -16,11 +16,14 @@
 - [ ] Create AI strategy
 
 
+================================================================================
+## ADDITIONAL NOTES
 
 - All html so far is to be found under the resources directory
 - All controllers are mapped in HomeController
 
 They follow the following: 
+
 
     @GetMapping("/greeting")
     public String greetingForm(Model model){
