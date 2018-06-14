@@ -4,9 +4,9 @@
 
 ## TO DO
 
-- [ ] Install Bootstrap
-- [ ] Create Navbar
-- [ ] Install a HTML theme
+- [x] Install Bootstrap
+- [x] Create Navbar
+- [x] Install a HTML theme
 - [ ] Create a Beautiful Homepage
 - [ ] Install MySQl
 - [ ] Create user login pages
