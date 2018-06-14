@@ -16,3 +16,8 @@ public class MvcConfig implements WebMvcConfigurer{
     }
 }
 
+//@REquestMapping(value="/registration", method = RequestMethod.GET)
+//public String showRegistrationForm(WebRequest request, Model model){
+//    User
+//}
+
