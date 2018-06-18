@@ -20,18 +20,18 @@
 </head>
 <body class=" ">
 <a id="start"></a>
+
 <div class="nav-container ">
     <div class="bar bar--sm visible-xs">
         <div class="container">
             <div class="row">
                 <div class="col-xs-3 col-sm-2">
-                    <a href="home1.html">
-                        <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
-                        <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                    <a href="/">
+                        <P>Movie Predictor</P>
                     </a>
                 </div>
                 <div class="col-xs-9 col-sm-10 text-right">
-                    <a href="#" class="hamburger-toggle" data-toggle-class="#menu2;hidden-xs hidden-sm">
+                    <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
                         <i class="icon icon--sm stack-interface stack-menu"></i>
                     </a>
                 </div>
@@ -41,13 +41,70 @@
         <!--end of container-->
     </div>
     <!--end bar-->
-    <nav id="menu2" class="bar bar-2 hidden-xs bar--absolute bar--transparent"></nav>
+    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-sm-2 hidden-xs">
+                    <div class="bar__module">
+                        <a href="/">
+                            <p>Movie Predictor</p>
+                        </a>
+                    </div>
+                    <!--end module-->
+                </div>
+                <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                    <div class="bar__module">
+                        <ul class="menu-horizontal text-left" style="padding-top: 15px;">
+                            <a class="" href="/" style="padding-right: 22.5px;">HOME</a>
+                            <a class="" href="/login">LOGIN</a>
+                        </ul>
+                    </div>
+                    <!--end module-->
+
+
+                    <ul class="nav navbar-nav navbar-right" style="padding-left: 8px;">
+
+
+                        <a class="btn btn--sm  btn--primary type--uppercase" href="/accounts/register/" style="bottom:-8.5px;">
+                                    <span class="btn__text">
+                                        Register
+                                    </span>
+                        </a>
+
+                    </ul>
+
+                    <div class="bar__module">
+
+                        <form class="navbar-form navbar-right" method="POST" action="/accounts/login/">
+                            <input type="hidden" name="csrfmiddlewaretoken" value="E5ui7gl5u8UrDg1tCwdQVGIJS73PoZCkS9SqaKRcmAdq5qS0TZEaKYxAphqJX3Od">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="username" placeholder="Username" autocomplete="off" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAA11JREFUWAndVzlLY1EU/pKJioiiiYoxgoIguMQoUyg2CTbBTrCcUvAHWFgJNlbzM6wGQQQLO3VEEEtTuRSKiMaFxA0R18z57uRd5r3szxeEOZDce8/63XOX864LQvPz84G3t7ef0o2kUqlW8pwil8t1Lr5+ezyemdnZ2TOrX1c6eEwC+6xCJ8cCJCEgQlYQbs683ME5EcZIZ9k0L7eMIiZOeQcZsdxOr3k+/NliMQNfSv83gO7ubkxPT4NtLiprBnp7e1FXVwe2uaisAOTsq7hGmw1EWQFkC2jlmQBUVVWhs7MTDQ0NVj3YlWU4sjA8xri+vh6Tk5Oora3Fx8cHVlZWsLu7q8R2ZYbvfK3OwPDwsApOZbfbjdHRUW1nV6Yd5OloAHl0yirSAHZ2dvDw8KCCcQnW19d1YLsy7SBPxzU3N5cy5NxobW1tSCaTuLm5MdiqzSczKRYYyJGMi8pm+vvg1ASggK2jYgGSFBADegkc9V6EM6mMXn4ffBmANMawvgeKAJ2hEgwGMTIyAp/Ph7u7O+zv72NjY0PdIxnKWRiSBb9tAAw+MTGh3TY1NYE/gllcXNR8dhobG1FZWYnLy0u8v7+bZLaXgDMnvb6+Ynl5GUdHR2rc09OD1lbzh/X4+DimpqZQU1OjdP79sw2AMyXF43HEYjFsbW1pv+3t7bpfqOOR43Ce7VutkOHT05NKK9POgH19fdqEtaOjowOhUEjxjOIWjUbx8vKC6+trbG9vK9m3SCTyXXpBbV1kx+v1IhAIoKKiAoODg2hpaeGnN1j7j4+PVT0Jh8Pw+/0KKN02NzerMXWYNZLcBZ4ZOY9RMf6bU8Uu/Le2tobq6mp0dXWpXc/rWiajDG9vb3F4eIiFhQU1HhsbUxt0aWkJj4+PYPYM8vClIq+jUPrRUPTT7Pn5GXRIYvVkEM6MdHFxoeqKUVuoSzo5OcH9/b3qG3/qGKafSz8MZr7WqB1M/9DQEFOodj3XnXRwcICzM/MTMJFIKD0WOSvZvgd4pPr7+03+9vb2sLq6auJxwGOai2wD4Kx49HixsHJeXV2pI5krUC7+pwBwI36WSr6IZKOxnjtC9FUyAIm86Uj0v042SwbAe0OQJz8Lgj7oq2QAcmRPxXBAHPxiCksFQhva0gd9/QFliFiu8Gk7TgAAAABJRU5ErkJggg==); background-attachment: scroll; background-size: 16px 18px; cursor: auto; background-position: 98% 50%; background-repeat: no-repeat no-repeat;">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="password" placeholder="Password" autocomplete="off" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAA11JREFUWAndVzlLY1EU/pKJioiiiYoxgoIguMQoUyg2CTbBTrCcUvAHWFgJNlbzM6wGQQQLO3VEEEtTuRSKiMaFxA0R18z57uRd5r3szxeEOZDce8/63XOX864LQvPz84G3t7ef0o2kUqlW8pwil8t1Lr5+ezyemdnZ2TOrX1c6eEwC+6xCJ8cCJCEgQlYQbs683ME5EcZIZ9k0L7eMIiZOeQcZsdxOr3k+/NliMQNfSv83gO7ubkxPT4NtLiprBnp7e1FXVwe2uaisAOTsq7hGmw1EWQFkC2jlmQBUVVWhs7MTDQ0NVj3YlWU4sjA8xri+vh6Tk5Oora3Fx8cHVlZWsLu7q8R2ZYbvfK3OwPDwsApOZbfbjdHRUW1nV6Yd5OloAHl0yirSAHZ2dvDw8KCCcQnW19d1YLsy7SBPxzU3N5cy5NxobW1tSCaTuLm5MdiqzSczKRYYyJGMi8pm+vvg1ASggK2jYgGSFBADegkc9V6EM6mMXn4ffBmANMawvgeKAJ2hEgwGMTIyAp/Ph7u7O+zv72NjY0PdIxnKWRiSBb9tAAw+MTGh3TY1NYE/gllcXNR8dhobG1FZWYnLy0u8v7+bZLaXgDMnvb6+Ynl5GUdHR2rc09OD1lbzh/X4+DimpqZQU1OjdP79sw2AMyXF43HEYjFsbW1pv+3t7bpfqOOR43Ce7VutkOHT05NKK9POgH19fdqEtaOjowOhUEjxjOIWjUbx8vKC6+trbG9vK9m3SCTyXXpBbV1kx+v1IhAIoKKiAoODg2hpaeGnN1j7j4+PVT0Jh8Pw+/0KKN02NzerMXWYNZLcBZ4ZOY9RMf6bU8Uu/Le2tobq6mp0dXWpXc/rWiajDG9vb3F4eIiFhQU1HhsbUxt0aWkJj4+PYPYM8vClIq+jUPrRUPTT7Pn5GXRIYvVkEM6MdHFxoeqKUVuoSzo5OcH9/b3qG3/qGKafSz8MZr7WqB1M/9DQEFOodj3XnXRwcICzM/MTMJFIKD0WOSvZvgd4pPr7+03+9vb2sLq6auJxwGOai2wD4Kx49HixsHJeXV2pI5krUC7+pwBwI36WSr6IZKOxnjtC9FUyAIm86Uj0v042SwbAe0OQJz8Lgj7oq2QAcmRPxXBAHPxiCksFQhva0gd9/QFliFiu8Gk7TgAAAABJRU5ErkJggg==); background-attachment: scroll; background-size: 16px 18px; cursor: auto; background-position: 98% 50%; background-repeat: no-repeat no-repeat;">
+                            </div>
+                            <button type="submit" class="btn btn--sm type--uppercase" style="width:122px;">Login</button>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+                <!--end module-->
+            </div>
+        </div>
+        <!--end of row-->
+
+        <!--end of container-->
+    </nav>
     <!--end bar-->
 </div>
+
 <div class="main-container">
     <section class="text-center height-80 imagebg" data-overlay="4">
         <div class="background-image-holder" style="background-image: url(http://trystack.mediumra.re/img/landing-21.jpg); opacity: 1; background-position: initial initial; background-repeat: initial initial;">
-            <img alt="background" src="img/landing-21.jpg">
+            <img alt="background" src="img/wakanda.jpg">
         </div>
         <div class="container pos-vertical-center">
             <div class="row">
@@ -92,25 +149,25 @@
                 <div class="gallery-1">
                     <div class="col-sm-6">
                         <div class="gallery__image">
-                            <a href="img/cowork-2.jpg" data-lightbox="Gallery 1">
+                            <a href="img/dark1.jpg" data-lightbox="Gallery 1">
                                 <div class="background-image-holder">
-                                    <img alt="Image" src="img/cowork-2.jpg" />
+                                    <img alt="Image" src="img/dark1.jpg" />
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="gallery__image">
-                            <a href="img/cowork-6.jpg" data-lightbox="Gallery 1">
+                            <a href="img/dark2.jpg" data-lightbox="Gallery 1">
                                 <div class="background-image-holder">
-                                    <img alt="Image" src="img/cowork-6.jpg" />
+                                    <img alt="Image" src="img/dark2.jpg" />
                                 </div>
                             </a>
                         </div>
                         <div class="gallery__image">
-                            <a href="img/knowledge-1.jpg" data-lightbox="Gallery 1">
+                            <a href="img/budapest.png" data-lightbox="Gallery 1">
                                 <div class="background-image-holder">
-                                    <img alt="Image" src="img/knowledge-1.jpg" />
+                                    <img alt="Image" src="img/budapest.png" />
                                 </div>
                             </a>
                         </div>
