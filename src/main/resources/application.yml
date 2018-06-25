@@ -12,3 +12,17 @@ security:
         resource:
             userInfoUri: https://www.googleapis.com/userinfo/v2/me
             preferTokenInfo: false
+
+spring:
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: validate
+
+    datasource:
+        url: jdbc:mysql://localhost:3306/db_example
+        username: root
+        password: ThePassword
+        driver-class-name: com.mysql.jdbc.Driver
+
+
