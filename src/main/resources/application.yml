@@ -20,7 +20,7 @@ spring:
             ddl-auto: validate
 
     datasource:
-        url: jdbc:mysql://localhost:3306/db_example
+        url: jdbc:mysql://localhost:3306/movies
         username: root
         password: ThePassword
         driver-class-name: com.mysql.jdbc.Driver
