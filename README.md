@@ -4,9 +4,10 @@
 
 ## TO DO
 
-- [ ] Install Bootstrap
-- [ ] Install a HTML theme
-- [ ] Create a Beautiful Homepage
+- [x] Install Bootstrap
+- [x] Create Navbar
+- [x] Install a HTML theme
+- [x] Create a Beautiful Homepage
 - [ ] Install MySQl
 - [ ] Create user login pages
 - [ ] Create user sign-up pages
@@ -20,7 +21,9 @@
 ## ADDITIONAL NOTES
 
 - All html so far is to be found under the resources directory
-- All controllers are mapped in HomeController
+- All controllers are mapped in mvcConfig
+- All permissions are handled in WebSecurityConfig
+
 
 They follow the following: 
 
