@@ -1,6 +1,8 @@
 # MoviePredictor
 ### Movie Prediction AI Project
 
+Consists of a java Spring client (Because we have to use it for school) that interacts with an AI written in Python (Django API wrapper) that tries its best to predict the next movie you should watch.
+
 
 ## TO DO
 
