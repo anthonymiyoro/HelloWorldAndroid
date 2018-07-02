@@ -1,0 +1,247 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Movie Predictor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Description Here">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/font-rubiklato.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700%7CRubik:300,400,500" rel="stylesheet" />
+</head>
+<body class=" ">
+
+
+
+<a id="start"></a>
+
+<div class="nav-container ">
+    <div class="bar bar--sm visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3 col-sm-2">
+                    <a href="/">
+                        <P>Movie Predictor</P>
+                    </a>
+                </div>
+                <div class="col-xs-9 col-sm-10 text-right">
+                    <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                        <i class="icon icon--sm stack-interface stack-menu"></i>
+                    </a>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </div>
+    <!--end bar-->
+    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-sm-2 hidden-xs">
+                    <div class="bar__module">
+                        <a href="/">
+                            <p>Movie Predictor</p>
+                        </a>
+                    </div>
+                    <!--end module-->
+                </div>
+                <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                    <div class="bar__module">
+                        <ul class="menu-horizontal text-left" style="padding-top: 15px;">
+                            <a class="" href="/" style="padding-right: 22.5px;">HOME</a>
+                            <a class="" href="/login">LOGIN</a>
+                        </ul>
+                    </div>
+                    <!--end module-->
+
+
+                    <ul class="nav navbar-nav navbar-right" style="padding-left: 8px;">
+
+
+                        <a class="btn btn--sm  btn--primary type--uppercase" href="/accounts/register/" style="bottom:-8.5px;">
+                                    <span class="btn__text">
+                                        Register
+                                    </span>
+                        </a>
+
+                    </ul>
+
+                </div>
+
+                <!--end module-->
+            </div>
+        </div>
+        <!--end of row-->
+
+        <!--end of container-->
+    </nav>
+    <!--end bar-->
+</div>
+
+
+<div class="main-container">
+    <!--<section class="imageblock switchable feature-large height-100">-->
+        <!--<div class="imageblock__content col-lg-6 col-md-4 pos-right">-->
+            <!--<div class="background-image-holder" style="background-image: url(http://trystack.mediumra.re/img/inner-7.jpg); opacity: 1; background-position: initial initial; background-repeat: initial initial;">-->
+                <!--<img alt="image" src="img/inner-7.jpg">-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="container pos-vertical-center">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-5 col-md-7">-->
+                    <!--<h2>Create a Stack account</h2>-->
+                    <!--<p class="lead">Get started with a 14 day free trial, No credit card required — cancel at any time.</p>-->
+                    <!--<form lpformnum="1">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-12">-->
+                                <!--<input type="email" name="Email Address" placeholder="Email Address" autocomplete="off" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==); background-attachment: scroll; background-size: 16px 18px; cursor: auto; background-position: 98% 50%; background-repeat: no-repeat no-repeat;">-->
+                            <!--</div>-->
+                            <!--<div class="col-12">-->
+                                <!--<input type="password" name="Password" placeholder="Password" autocomplete="off" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==); background-attachment: scroll; background-size: 16px 18px; cursor: auto; background-position: 98% 50%; background-repeat: no-repeat no-repeat;">-->
+                            <!--</div>-->
+                            <!--<div class="col-12">-->
+                                <!--<button type="submit" class="btn btn&#45;&#45;primary type&#45;&#45;uppercase">Create Account</button>-->
+                            <!--</div>-->
+                            <!--<div class="col-12">-->
+                                        <!--<span class="type&#45;&#45;fine-print">By signing up, you agree to the-->
+                                            <!--<a href="#">Terms of Service</a>-->
+                                        <!--</span>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash;end row&ndash;&gt;-->
+                    <!--</form>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;end of row&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash;end of container&ndash;&gt;-->
+    <!--</section>-->
+
+    <h1 th:text="#{label.form.title}">form</h1>
+    <form action="/" th:object="${user}" method="POST" enctype="utf8">
+        <div>
+            <label th:text="#{label.user.firstName}">first</label>
+            <input th:field="*{firstName}"/>
+            <p th:each="error: ${#fields.errors('firstName')}"
+               th:text="${error}">Validation error</p>
+        </div>
+        <div>
+            <label th:text="#{label.user.lastName}">last</label>
+            <input th:field="*{lastName}"/>
+            <p th:each="error : ${#fields.errors('lastName')}"
+               th:text="${error}">Validation error</p>
+        </div>
+        <div>
+            <label th:text="#{label.user.email}">email</label>
+            <input type="email" th:field="*{email}"/>
+            <p th:each="error : ${#fields.errors('email')}"
+               th:text="${error}">Validation error</p>
+        </div>
+        <div>
+            <label th:text="#{label.user.password}">password</label>
+            <input type="password" th:field="*{password}"/>
+            <p th:each="error : ${#fields.errors('password')}"
+               th:text="${error}">Validation error</p>
+        </div>
+        <div>
+            <label th:text="#{label.user.confirmPass}">confirm</label>
+            <input type="password" th:field="*{matchingPassword}"/>
+        </div>
+        <button type="submit" th:text="#{label.form.submit}">submit</button>
+    </form>
+
+    <a th:href="@{/login.html}" th:text="#{label.form.loginLink}">login</a>
+
+
+</div>
+
+
+<footer class="footer-3 text-center-xs space--xs ">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img alt="Image" class="logo" src="img/logo-dark.png" />
+                <ul class="list-inline list--hover">
+                    <li>
+                        <a href="#">
+                            <span class="type--fine-print">Get Started</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="type--fine-print">help@stack.io</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 text-right text-center-xs">
+                <ul class="social-list list-inline list--hover">
+                    <li>
+                        <a href="#">
+                            <i class="socicon socicon-google icon icon--xs"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="socicon socicon-twitter icon icon--xs"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="socicon socicon-facebook icon icon--xs"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="socicon socicon-instagram icon icon--xs"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</footer>
+
+</div>
+<!--<div class="loader"></div>-->
+<a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+</a>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/flickity.min.js"></script>
+<script src="js/easypiechart.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/datepicker.js"></script>
+<script src="js/isotope.min.js"></script>
+<script src="js/ytplayer.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/granim.min.js"></script>
+<script src="js/jquery.steps.min.js"></script>
+<script src="js/countdown.min.js"></script>
+<script src="js/twitterfetcher.min.js"></script>
+<script src="js/spectragram.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
+
+
