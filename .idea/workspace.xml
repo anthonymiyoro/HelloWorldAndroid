@@ -2,430 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0a60077-1b6e-4d71-9ab1-54d508190160" name="Default" comment="Removed gradle and added login and signup">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/flickity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-frankruhl-firasans.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-karla.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-merriweather-ptsans.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-raleway.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-roboto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-robotoslab.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-rubiklato.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/font-sourcesanspro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/iconsmind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/jquery.steps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/lightbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/socicon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/stack-interface.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-aqua.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-cedar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-charcoal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-greensea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-serpent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-tangerine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme-yeller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/iconsmind.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/iconsmind.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/iconsmind.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/socicon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/socicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/socicon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/socicon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/stack-interface.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/stack-interface.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/stack-interface.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/stack-interface.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/fonts/stack-interface.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/blog-single-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/budapest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/conference-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/conference-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/construction-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/construction-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/cowork-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/dark1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/dark2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/agency-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/agency.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/coming-soon-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/coming-soon-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/coming-soon-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/construction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/coworking.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/drone-photography.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/education.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/event.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/fitness.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/insurance.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/knowledge-base.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/landing-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/magazine-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/magazine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/musician.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/nonprofit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/personal-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/photography-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/photography.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/political.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/recruitment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/restaurant.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/software-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/software-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/software-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/studio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/studio-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/tourism.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/video.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/demos/wedding.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/device-bg-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/drone-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/drone-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/drone-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/drone-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/dropdown-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/dropdown-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/ebook-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/education-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/education-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/education-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/education-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/education-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/education-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/education-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/fitness-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/fitness-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/fitness-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/fitness-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/fitness-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/flag-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/flag-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/headline-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/headline-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/headline-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/headline-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/hero-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/hero-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/hero-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/inner-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/insurance-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/insurance-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/insurance-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/knowledge-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/landing-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/logo-agency.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/logo-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/logo-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/logo-musician.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/logo-variant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/mapmarker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/menu-promo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/music-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/music-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/music-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nav-bar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nav-bar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nav-fullscreen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nav-sidebar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nonprofit-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nonprofit-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nonprofit-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nonprofit-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nonprofit-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/nonprofit-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/partner-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/partner-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/partner-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/partner-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/partner-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/partner-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/partner-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/personal-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/photography-logo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/political-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/political-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-single-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-single-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-single-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-single-large-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-single-large-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/product-small-feature-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/promo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/recruitment-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/recruitment-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/recruitment-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/recruitment-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/restaurant-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/restaurant-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/restaurant-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/restaurant-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/restaurant-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/restaurant-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/software-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/software-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/software-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/software-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/software-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/tourism-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/wakanda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/wedding-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/wedding-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/wedding-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/wedding-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/wedding-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/work-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/work-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/work-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/work-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/work-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/img/work-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/countdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/easypiechart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/flickity.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/granim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/isotope.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/jquery.steps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/lightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/smooth-scroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/spectragram.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/twitterfetcher.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/typed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/js/ytplayer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/accordions.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/bars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/boxed-layout.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/boxes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/breadcrumbs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/colors.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/dropdowns.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/flickity.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/granim.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/helpers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/hover-elements.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/image-blocks.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/images.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/lightbox-images.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/lists.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/maps.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/masonry.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/menus.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/modals.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/navigation-inpage.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/newsletter-providers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/notifications.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/parallax.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/position.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/radials.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/reset.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/size.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/spacing.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/switchable.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/tabs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/transitions.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/twitter.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/typed-effect.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/typography.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/video.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/framework_components/wizard.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme-overrides.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme-variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/accordions.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/animations.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/bars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/blog.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/boxes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/cards.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/checkmarks.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/colors.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/covers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/cta.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/customizers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/dropdowns.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/features-large.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/features-small.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/footers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/helpers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/images.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/instagram.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/lightbox.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/links.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/lists.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/loader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/maps.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/masonry.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/modals.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/navigation-fullscreen.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/navigation-inpage.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/navigation-menu-toggle.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/navigation-sidebar-column.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/navigation-sidebar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/navigation-stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/navigation-utility.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/navigation.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/notifications.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/portfolio.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/pricing.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/processes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/radials.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/rules.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/sections.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/shop.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/sliders.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/switchable.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/tables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/tabs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/testimonials.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/titles.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/tooltips.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/twitter.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/typed-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/typography.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/videos.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/less/theme_components/wizard.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/video/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/video/video.ogv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/video/video.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/movie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileChanges/last-build.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/annotation-processors.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" />
@@ -441,9 +17,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MoviePredictorAI_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MoviePredictorAI_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -488,20 +61,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+            <state relative-caret-position="331">
+              <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="401">
+                <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -607,6 +183,7 @@
       <find>movie</find>
       <find>hot</find>
       <find>content</find>
+      <find>hiber</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -862,6 +439,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/moviepredictor/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -897,9 +475,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="622" />
-    <option name="y" value="55" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="285" />
+    <option name="y" value="115" />
     <option name="width" value="851" />
     <option name="height" value="627" />
   </component>
@@ -1059,7 +637,7 @@
       <workItem from="1528100827993" duration="4588000" />
       <workItem from="1528184909927" duration="6658000" />
       <workItem from="1528286995620" duration="3942000" />
-      <workItem from="1530468518813" duration="6220000" />
+      <workItem from="1530468518813" duration="6800000" />
     </task>
     <task id="LOCAL-00001" summary="installed booststrap and added theme html files">
       <created>1528133182591</created>
@@ -1089,18 +667,26 @@
       <option name="project" value="LOCAL" />
       <updated>1530469830014</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finally working with maven build. Working user backend.">
+      <created>1530547575695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530547575695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35359000" />
+    <option name="totallyTimeSpent" value="35939000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="285" y="115" width="851" height="627" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32830188" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -1119,10 +705,11 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3260606" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42181817" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16595136" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6304348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867738" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32830188" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32880098" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -1131,7 +718,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Build" order="12" weight="0.3264151" />
@@ -1183,11 +769,11 @@
     <MESSAGE value="Updated frontend" />
     <MESSAGE value="Updated missing plugins in gradle" />
     <MESSAGE value="added login and signup with maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="added login and signup with maven" />
+    <MESSAGE value="Finally working with maven build. Working user backend." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally working with maven build. Working user backend." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle" />
     <entry file="file://$PROJECT_DIR$/src/main/java/am/moviepredictorai/Application.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle" />
     <entry file="file://$PROJECT_DIR$/src/main/java/am/moviepredictorai/WebSecurityConfig.java" />
@@ -1310,8 +896,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        <state relative-caret-position="331">
+          <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="401">
+            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
