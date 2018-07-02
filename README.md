@@ -25,7 +25,7 @@
 - All permissions are handled in WebSecurityConfig
 
 
-TO RUN THIS TING:
+## TO RUN THIS THING: (Guess who uses Maven now :p )
 
 - mvn clean install
 - mvn spring-boot:run
