@@ -1,6 +1,8 @@
 # MoviePredictor
 ### Movie Prediction AI Project
 
+Consists of a java Spring client (Because we have to use it for school) that interacts with an AI written in Python (Django API wrapper) that tries its best to predict the next movie you should watch.
+
 
 ## TO DO
 
@@ -25,7 +27,7 @@
 - All permissions are handled in WebSecurityConfig
 
 
-TO RUN THIS TING:
+## TO RUN THIS THING: (Guess who uses Maven now :p )
 
- mvn clean install
-mvn spring-boot:run
+- mvn clean install
+- mvn spring-boot:run
