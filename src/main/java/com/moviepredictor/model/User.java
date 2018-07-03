@@ -50,11 +50,11 @@ public class User{
         this.email = email;
     }
 
-    public String getFirstName() {
+    public String getFirstname() {
         return firstname;
     }
 
-    public void setFirstname(){
+    public void setFirstname(String firstname){
         this.firstname = firstname;
     }
 

@@ -63,7 +63,7 @@ public class UserController {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         User user = userService.findUserByEmail(auth.getName());
 
-        model.addObject("userName", user.getFirstName() + " " + user.getLastname());
+        model.addObject("userName", user.getFirstname() + " " + user.getLastname());
         model.setViewName("home/home");
         return model;
     }
