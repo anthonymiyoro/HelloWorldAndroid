@@ -13,6 +13,7 @@ Consists of a java Spring client (Because we have to use it for school) that int
 - [x] Install MySQl
 - [x] Create user login pages
 - [x] Create user sign-up pages
+- [ ] Build form that allows for a selection of predefined movies
 - [ ] Create user input pages
 - [ ] Add AI data source
 - [ ] Build Pipeline
