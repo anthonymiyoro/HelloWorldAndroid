@@ -10,21 +10,22 @@ Consists of a java Spring client (Because we have to use it for school) that int
 - [x] Create Navbar
 - [x] Install a HTML theme
 - [x] Create a Beautiful Homepage
-- [ ] Install MySQl
-- [ ] Create user login pages
-- [ ] Create user sign-up pages
+- [x] Install MySQl
+- [x] Create user login pages
+- [x] Create user sign-up pages
 - [ ] Create user input pages
 - [ ] Add AI data source
 - [ ] Build Pipeline
 - [ ] Create AI strategy
+- [ ] Create and Host AI Python site
 
 
 ================================================================================
 ## ADDITIONAL NOTES
 
 - All html so far is to be found under the resources directory
-- All controllers are mapped in mvcConfig
-- All permissions are handled in WebSecurityConfig
+- All controllers are mapped in userController under the controller folder
+- All security permissions are handled in configuration under Security Ccnfiguration
 
 
 ## TO RUN THIS THING: (Guess who uses Maven now :p )
