@@ -7,18 +7,22 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
 
 @Controller
+@RestController
 public class UserController {
 
     @Autowired
     private UserService userService;
 
+//  Login page
     @RequestMapping(value= {"/", "/login"}, method=RequestMethod.GET)
     public ModelAndView login() {
         ModelAndView model = new ModelAndView();
@@ -26,7 +30,7 @@ public class UserController {
         model.setViewName("user/login");
         return model;
     }
-
+// Signup page
     @RequestMapping(value= {"/signup"}, method=RequestMethod.GET)
     public ModelAndView signup() {
         ModelAndView model = new ModelAndView();
@@ -37,6 +41,7 @@ public class UserController {
         return model;
     }
 
+//    Signup page check
     @RequestMapping(value= {"/signup"}, method=RequestMethod.POST)
     public ModelAndView createUser(@Valid User user, BindingResult bindingResult) {
         ModelAndView model = new ModelAndView();
@@ -57,6 +62,7 @@ public class UserController {
         return model;
     }
 
+//    Home page
     @RequestMapping(value= {"/home"}, method=RequestMethod.GET)
     public ModelAndView home() {
         ModelAndView model = new ModelAndView();
@@ -68,10 +74,19 @@ public class UserController {
         return model;
     }
 
+//    Access denied page
     @RequestMapping(value= {"/access_denied"}, method=RequestMethod.GET)
     public ModelAndView accessDenied() {
         ModelAndView model = new ModelAndView();
         model.setViewName("errors/access_denied");
         return model;
     }
+
+    @RequestMapping(value = "/square/{number}")
+    public int calculateSq(@PathVariable int number){
+        return number*number;
+    }
+
+
+
 }
