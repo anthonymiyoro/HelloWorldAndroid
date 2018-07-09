@@ -14,6 +14,8 @@ Consists of a java Spring client (Because we have to use it for school) that int
 - [x] Create user login pages
 - [x] Create user sign-up pages
 - [ ] Build form that allows for a selection of predefined movies
+    - [ ] Build form that collects user input and pases it to the controller
+    - [ ] Build controller that converts form input to json and posts it to API
 - [ ] Create user input pages
 - [ ] Add AI data source
 - [ ] Build Pipeline

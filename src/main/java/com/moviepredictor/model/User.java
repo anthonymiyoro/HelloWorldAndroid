@@ -28,7 +28,7 @@ public class User{
     @Column(name="active")
     private int active;
 
-//    Relate user_d to role tables
+//    Relate user_id to role tables
     @ManyToMany(cascade=CascadeType.ALL)
     @JoinTable(name="user_role", joinColumns=@JoinColumn(name="user_id"), inverseJoinColumns=@JoinColumn(name="role_id"))
 
