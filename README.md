@@ -17,7 +17,7 @@ Consists of a java Spring client (Because we have to use it for school) that int
 - [ ] Create user input pages
 - [ ] Add AI data source
 - [ ] Build Pipeline
-- [ ] Create AI strategy
+- [x] Create AI strategy
 - [ ] Create and Host AI Python site
 
 
