@@ -16,11 +16,12 @@ Consists of a java Spring client (Because we have to use it for school) that int
 - [ ] Build form that allows for a selection of predefined movies
     - [ ] Build form that collects user input and pases it to the controller
     - [ ] Build controller that converts form input to json and posts it to API
+- [ ] Fix Signup page to add login link
 - [ ] Create user input pages
-- [ ] Add AI data source
-- [ ] Build Pipeline
+- [x] Add AI data source
+- [x] Build Pipeline
 - [x] Create AI strategy
-- [ ] Create and Host AI Python site
+- [x] Create and Host AI Python site
 
 
 ================================================================================
