@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml"
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:form="http://www.w3.org/1999/xhtml"
 >
 
 <head>
@@ -36,16 +36,39 @@
     </div>
     <div class="container pos-vertical-center">
         <div class="row">
-            <div class="col-lg-5 col-md-7">
-                <h2>Login to your account</h2>
-
-                <div class="input-icon">
-                    <i class="material-icons">person</i>
-                    <input type="text" name="input" placeholder="Enter your name" />
-                </div>
 
 
-            </div>
+            <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+            <html>
+            <head>
+            </head>
+            <body>
+            <h3>Welcome, Enter The Employee Details</h3>
+            <form:form method="POST"
+                       action="/spring-mvc-xml/addEmployee" modelAttribute="employee">
+                <table>
+                    <tr>
+                        <td><form:label path="name">Name</form:label></td>
+                        <td><form:input path="name"/></td>
+                    </tr>
+                    <tr>
+                        <td><form:label path="id">Id</form:label></td>
+                        <td><form:input path="id"/></td>
+                    </tr>
+                    <tr>
+                        <td><form:label path="contactNumber">
+                            Contact Number</form:label></td>
+                        <td><form:input path="contactNumber"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"/></td>
+                    </tr>
+                </table>
+            </form:form>
+            </body>
+            </html>
+
+
         </div>
         <!--end of row-->
     </div>

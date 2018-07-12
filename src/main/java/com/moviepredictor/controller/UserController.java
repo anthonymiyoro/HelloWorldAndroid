@@ -1,11 +1,13 @@
 package com.moviepredictor.controller;
 
+import com.moviepredictor.model.LikedMovies;
 import com.moviepredictor.model.User;
 import com.moviepredictor.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -85,6 +87,18 @@ public class UserController {
     @RequestMapping(value = "/square/{number}")
     public int calculateSq(@PathVariable int number){
         return number*number;
+    }
+
+
+//    @GetMapping("/form")
+//    public String formGet() {
+//        return "this is form";
+//    }
+
+    @RequestMapping("/form")
+    public  String formPost(LikedMovies likedMovie, Model model){
+        model.addAttribute("likedMovie", likedMovie);
+        return  "/user/form";
     }
 
 
